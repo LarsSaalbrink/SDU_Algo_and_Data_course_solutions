@@ -181,20 +181,8 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../lib/Lib.h \
-  ../lib/time_measurement.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h
+  ../lib/Lib.h
 
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/limits:
-
-/usr/include/c++/11/ratio:
 
 ../lib/Lib.h:
 
@@ -245,8 +233,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/cerrno:
 
 /usr/include/stdio.h:
-
-/usr/include/c++/11/chrono:
 
 /usr/include/c++/11/cstdio:
 
@@ -368,8 +354,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-../lib/time_measurement.h:
-
 /usr/include/features.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
@@ -397,8 +381,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/ctime:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
