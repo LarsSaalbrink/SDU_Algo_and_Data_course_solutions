@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/lib
+CXX_INCLUDES = -I/usr/include/python3.10 -I/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/lib
 
 CXX_FLAGS = 
 

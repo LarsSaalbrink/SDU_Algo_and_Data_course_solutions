@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 /* 1
  * int sum(int n);
  * Returns the sum of the first n natural numbers.
@@ -16,18 +14,41 @@ int sum(int n) { // Should be unsigned int
     return n + sum(n - 1);
 }
 void test1() {
-    cout << "\n---Test 1: sum()---" << endl;
+    execution_times.push_back(std::vector<double>());
+
+    std::cout << "\n---Test 1: sum()---" << std::endl;
     auto output = measure_execution_time(sum, 0);
-    cout << "sum(0) = " << output << endl << endl;
+    std::cout << "sum(0) = " << output << std::endl << std::endl;
 
-    output = measure_execution_time(sum, 1);
-    cout << "sum(1) = " << output << endl << endl;
+    output = measure_execution_time(sum, 1000);
+    std::cout << "sum(1000) = " << output << std::endl << std::endl;
 
-    output = measure_execution_time(sum, 42);
-    cout << "sum(42) = " << output << endl << endl;
+    output = measure_execution_time(sum, 2000);
+    std::cout << "sum(2000) = " << output << std::endl << std::endl;
 
-    output = measure_execution_time(sum, 100000);
-    cout << "sum(10000) = " << output << endl << endl;
+    output = measure_execution_time(sum, 3000);
+    std::cout << "sum(3000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 4000);
+    std::cout << "sum(4000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 5000);
+    std::cout << "sum(5000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 6000);
+    std::cout << "sum(6000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 7000);
+    std::cout << "sum(7000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 8000);
+    std::cout << "sum(8000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 9000);
+    std::cout << "sum(9000) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(sum, 10000);
+    std::cout << "sum(10000) = " << output << std::endl << std::endl;
 }
 
 /* 2
@@ -41,18 +62,18 @@ int evenSquareSum(int n) { // Should be unsigned int
     return 2 * n * 2 * n + evenSquareSum(n - 1);
 }
 void test2() {
-    cout << "\n---Test 2: evenSquareSum()---" << endl;
+    std::cout << "\n---Test 2: evenSquareSum()---" << std::endl;
     auto output = measure_execution_time(evenSquareSum, 0);
-    cout << "evenSquareSum(0) = " << output << endl << endl;
+    std::cout << "evenSquareSum(0) = " << output << std::endl << std::endl;
 
     output = measure_execution_time(evenSquareSum, 1);
-    cout << "evenSquareSum(1) = " << output << endl << endl;
+    std::cout << "evenSquareSum(1) = " << output << std::endl << std::endl;
 
     output = measure_execution_time(evenSquareSum, 42);
-    cout << "evenSquareSum(42) = " << output << endl << endl;
+    std::cout << "evenSquareSum(42) = " << output << std::endl << std::endl;
 
     output = measure_execution_time(evenSquareSum, 1000);
-    cout << "evenSquareSum(10000) = " << output << endl << endl;
+    std::cout << "evenSquareSum(10000) = " << output << std::endl << std::endl;
 }
 
 /* 3
@@ -67,15 +88,15 @@ int fib(int n) {
     return fib(n - 1) + fib(n - 2);
 }
 void test3() {
-    cout << "\n---Test 3: fib()---" << endl;
+    std::cout << "\n---Test 3: fib()---" << std::endl;
     auto output = measure_execution_time(fib, 0);
-    cout << "fib(0) = " << output << endl << endl;
+    std::cout << "fib(0) = " << output << std::endl << std::endl;
 
     output = measure_execution_time(fib, 1);
-    cout << "fib(1) = " << output << endl << endl;
+    std::cout << "fib(1) = " << output << std::endl << std::endl;
 
     output = measure_execution_time(fib, 42);
-    cout << "fib(42) = " << output << endl << endl;
+    std::cout << "fib(42) = " << output << std::endl << std::endl;
 }
 
 /* 4
@@ -83,7 +104,7 @@ void test3() {
  * Returns true if string s with length l containes char c,
  * otherwise false.
  */
-bool linear(string s, char c, int l) {
+bool linear(std::string s, char c, int l) {
     if (l == 0) {
         return false;
     }
@@ -93,18 +114,18 @@ bool linear(string s, char c, int l) {
     return linear(s, c, l - 1);
 }
 void test4() {
-    cout << "\n---Test 4: linear()---" << endl;
-    string s = "Hello World!";
+    std::cout << "\n---Test 4: linear()---" << std::endl;
+    std::string s = "Hello World!";
     auto output = measure_execution_time(linear, s, 'o', s.length());
 
-    cout << "linear(\"" << s << "\", 'o', " << s.length()
-         << ") = " << (output ? "true" : "false") << endl
-         << endl;
+    std::cout << "linear(\"" << s << "\", 'o', " << s.length()
+              << ") = " << (output ? "true" : "false") << std::endl
+              << std::endl;
 
     output = measure_execution_time(linear, s, 'x', s.length());
-    cout << "linear(\"" << s << "\", 'x', " << s.length()
-         << ") = " << (output ? "true" : "false") << endl
-         << endl;
+    std::cout << "linear(\"" << s << "\", 'x', " << s.length()
+              << ") = " << (output ? "true" : "false") << std::endl
+              << std::endl;
 }
 
 /* 5
@@ -129,15 +150,15 @@ bool binarySearch(int arr[], int value) {
     return false;
 }
 void test5() {
-    cout << "\n---Test 5: binarySearch()---" << endl;
+    std::cout << "\n---Test 5: binarySearch()---" << std::endl;
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
     auto output = measure_execution_time(binarySearch, arr, 5);
-    cout << "binarySearch([1, 2, 3, 4, 5, 6, 7, 8], 5) = "
-         << (output ? "true" : "false") << endl
-         << endl;
+    std::cout << "binarySearch([1, 2, 3, 4, 5, 6, 7, 8], 5) = "
+              << (output ? "true" : "false") << std::endl
+              << std::endl;
 
     output = measure_execution_time(binarySearch, arr, 9);
-    cout << "binarySearch([1, 2, 3, 4, 5, 6, 7, 8], 9) = "
-         << (output ? "true" : "false") << endl
-         << endl;
+    std::cout << "binarySearch([1, 2, 3, 4, 5, 6, 7, 8], 9) = "
+              << (output ? "true" : "false") << std::endl
+              << std::endl;
 }

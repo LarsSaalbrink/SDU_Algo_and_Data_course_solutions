@@ -3,6 +3,9 @@
 
 #include <chrono>
 #include <iostream>
+#include <vector>
+
+extern std::vector<std::vector<double>> execution_times;
 
 // Function to measure execution time of
 // function with variable amount of arguments
@@ -16,6 +19,8 @@ auto measure_execution_time(Func func, Args &&...args) {
 
     std::cout << "Execution time: " << duration.count() << " seconds"
               << std::endl;
+
+    execution_times.back().push_back(duration.count());
 
     return result;
 }
