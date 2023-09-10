@@ -95,6 +95,12 @@ void test3() {
     output = measure_execution_time(fib, 1);
     std::cout << "fib(1) = " << output << std::endl << std::endl;
 
+    output = measure_execution_time(fib, 2);
+    std::cout << "fib(2) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(fib, 3);
+    std::cout << "fib(3) = " << output << std::endl << std::endl;
+
     output = measure_execution_time(fib, 42);
     std::cout << "fib(42) = " << output << std::endl << std::endl;
 }
@@ -134,25 +140,42 @@ void test4() {
  * The elements are sorted
  */
 bool binarySearch(int arr[], int value) {
-    int begin = 0;
-    int mid = 0;
-    int end = sizeof(arr);
+    // Static variables as function template does not include left & right
+    static int left = 0;
+    static int right = -1;
 
-    while (begin <= end) {
-        mid = (begin + end) / 2;
-        if (arr[mid] < value)
-            begin = mid + 1;
-        else if (arr[mid] > value)
-            end = mid - 1;
-        else
-            return true;
+    if (right == -1) {  // Initialize right
+        right = sizeof(arr);
     }
-    return false;
+
+    if (left > right) {
+        // Reset left and right for the next search
+        left = 0;
+        right = -1;
+        return false; // Element not found
+    }
+
+    int mid = left + (right - left) / 2;
+
+    if (arr[mid] == value) {
+        // Reset left and right for the next search
+        left = 0;
+        right = -1;
+        return true; // Element found
+    } else if (arr[mid] > value) {
+        // Search the left half
+        right = mid - 1;
+    } else {
+        // Search the right half
+        left = mid + 1;
+    }
+
+    return binarySearch(arr, value);
 }
 void test5() {
     std::cout << "\n---Test 5: binarySearch()---" << std::endl;
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    auto output = measure_execution_time(binarySearch, arr, 5);
+    auto output = measure_execution_time(binarySearch, arr, 7);
     std::cout << "binarySearch([1, 2, 3, 4, 5, 6, 7, 8], 5) = "
               << (output ? "true" : "false") << std::endl
               << std::endl;
