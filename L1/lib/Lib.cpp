@@ -81,11 +81,25 @@ void test2() {
  * Returns the nth Fibonacci number.
  */
 // https://en.wikipedia.org/wiki/Fibonacci_sequence
-int fib(int n) {
+// int fib(int n) {
+//     if (n == 0 || n == 1) {
+//         return n;
+//     }
+//     return fib(n - 1) + fib(n - 2);
+// }
+
+// Recursive Fibonacci function with memoization
+// test3 shows that this is roughly 1000000 times faster for call fib(42)
+uint64_t fib(uint64_t n) {
+    static uint64_t memo[1000] = {0};
     if (n == 0 || n == 1) {
         return n;
     }
-    return fib(n - 1) + fib(n - 2);
+    if (memo[n] != 0) {
+        return memo[n];
+    }
+    memo[n] = fib(n - 1) + fib(n - 2);
+    return memo[n];
 }
 void test3() {
     std::cout << "\n---Test 3: fib()---" << std::endl;
@@ -103,6 +117,27 @@ void test3() {
 
     output = measure_execution_time(fib, 42);
     std::cout << "fib(42) = " << output << std::endl << std::endl;
+
+    output = measure_execution_time(fib, 91);
+    std::cout << "fib(91) = " << output << std::endl << std::endl;
+    output = measure_execution_time(fib, 92);
+    std::cout << "fib(92) = " << output << std::endl << std::endl;
+    output = measure_execution_time(fib, 93);
+    std::cout << "fib(93) = " << output << std::endl << std::endl;
+
+    // Count digits of output
+    // Biggest possible number in uint64_t is 18446744073709551615, 20 digits
+    int digits = 0;
+    uint64_t temp = output;
+    while (temp != 0) {
+        temp /= 10;
+        digits++;
+    }
+    std::cout
+        << "Last fibonacci number has " << digits
+        << " digits. Going further causes integer overflow when using uint64."
+        << std::endl
+        << std::endl;
 }
 
 /* 4
@@ -140,11 +175,11 @@ void test4() {
  * The elements are sorted
  */
 bool binarySearch(int arr[], int value) {
-    // Static variables as function template does not include left & right
+    // Static variables as function protoype does not include left & right
     static int left = 0;
     static int right = -1;
 
-    if (right == -1) {  // Initialize right
+    if (right == -1) { // Initialize right
         right = sizeof(arr);
     }
 

@@ -1,6 +1,7 @@
 #ifndef LIB_H
 #define LIB_H
 
+#include <gmp.h>
 #include <string>
 
 int sum(int n);
@@ -9,7 +10,8 @@ void test1();
 int evenSquareSum(int n);
 void test2();
 
-int fib(int n);
+// int fib(int n);
+uint64_t fib(uint64_t n);
 void test3();
 
 bool linear(std::string s, char c, int l);
