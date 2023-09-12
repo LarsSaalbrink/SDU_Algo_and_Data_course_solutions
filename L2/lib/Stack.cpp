@@ -30,9 +30,9 @@ char Stack::pop() {
     }
     return stack[top--];
 }
-bool Stack::isEmpty() {
+bool Stack::isEmpty() const {
     return top == -1;
 }
-bool Stack::isFull() {
+bool Stack::isFull() const {
     return top == size - 1;
 }

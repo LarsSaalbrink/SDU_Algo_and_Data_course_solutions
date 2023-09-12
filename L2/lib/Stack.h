@@ -8,8 +8,8 @@ public:
     ~Stack();
     void push(char);
     char pop();
-    bool isEmpty();
-    bool isFull();
+    bool isEmpty() const;
+    bool isFull() const;
 private:
     char* stack;
     int top;

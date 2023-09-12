@@ -194,6 +194,7 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: /home/lars/Desktop/My_solutions/L2/lib/Lib.cpp
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /home/lars/Desktop/My_solutions/L2/lib/Stack.h \
+  /home/lars/Desktop/My_solutions/L2/lib/Queue.h \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -481,6 +482,8 @@ lib/CMakeFiles/Lib.dir/Stack.cpp.o: /home/lars/Desktop/My_solutions/L2/lib/Stack
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/stdint.h:
+
+/home/lars/Desktop/My_solutions/L2/lib/Queue.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 

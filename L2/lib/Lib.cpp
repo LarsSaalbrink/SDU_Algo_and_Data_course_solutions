@@ -1,6 +1,7 @@
 #include "Lib.h"
 #include "time_measurement.h"
 #include "Stack.h"
+#include "Queue.h"
 
 #include <iostream>
 #include <vector>
@@ -54,3 +55,28 @@ void test1(){
     std::cout << text << std::endl;
     std::cout << "Balanced: " << balPar(text) << std::endl;
 }
+
+// Unit tests for Queue class
+void test2(){
+    std::cout << "\n---Test 2: Queue---" << std::endl;
+    Queue<int> queue(5);
+    std::cout << "Is empty: " << (queue.isEmpty() ? "true" : "false") << std::endl;
+    queue.enqueue(1);
+    queue.enqueue(2);
+    queue.enqueue(3);
+    queue.enqueue(4);
+    std::cout << "Queue: ";
+    queue.print_content();
+    std::cout << "Dequeue: " << queue.dequeue() << std::endl;
+    std::cout << "Dequeue: " << queue.dequeue() << std::endl;
+    queue.print_content();
+    queue.peek();
+    std::cout << "Is empty: " << (queue.isEmpty() ? "true" : "false") << std::endl;
+    std::cout << "Resize to length 2" << std::endl;
+    queue.resize(2);
+    queue.print_content();
+    std::cout << "Add another element to cause overflow error" << std::endl;
+    queue.enqueue(5);
+    queue.print_content();
+}
+

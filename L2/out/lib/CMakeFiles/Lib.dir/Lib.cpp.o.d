@@ -158,7 +158,8 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/lars/Desktop/My_solutions/L2/lib/Stack.h /usr/include/c++/11/tuple \
+ /home/lars/Desktop/My_solutions/L2/lib/Stack.h \
+ /home/lars/Desktop/My_solutions/L2/lib/Queue.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h

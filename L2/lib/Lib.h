@@ -6,4 +6,6 @@
 bool balPar(std::string text);
 void test1();
 
+void test2();
+
 #endif // LIB_H
