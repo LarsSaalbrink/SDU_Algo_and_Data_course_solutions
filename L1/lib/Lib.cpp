@@ -90,54 +90,115 @@ void test2() {
 
 // Recursive Fibonacci function with memoization
 // test3 shows that this is roughly 1000000 times faster for call fib(42)
-uint64_t fib(uint64_t n) {
-    static uint64_t memo[1000] = {0};
+// Integer overflow occurs at fib(93)
+// uint64_t fib(uint64_t n) {
+//     static uint64_t memo[100] = {0};
+//     if (n == 0 || n == 1) {
+//         return n;
+//     }
+//     if (memo[n] != 0) {
+//         return memo[n];
+//     }
+//     memo[n] = fib(n - 1) + fib(n - 2);
+//     return memo[n];
+// }
+
+// Recursive Fibonacci function with memoization & larger type
+bool fib(mpz_t result, unsigned long n) {
+    static mpz_t memo[100000];
+    static int initialized = 0;
+
+    if (!initialized) {
+        for (int i = 0; i < 1000; i++) {
+            mpz_init(memo[i]);
+        }
+        initialized = 1;
+    }
+
     if (n == 0 || n == 1) {
-        return n;
+        mpz_set_ui(result, n);
+        return true;
     }
-    if (memo[n] != 0) {
-        return memo[n];
+
+    if (mpz_cmp_ui(memo[n], 0) != 0) {
+        mpz_set(result, memo[n]);
+        return true;
     }
-    memo[n] = fib(n - 1) + fib(n - 2);
-    return memo[n];
+
+    mpz_t temp1, temp2;
+    mpz_init(temp1);
+    mpz_init(temp2);
+
+    fib(temp1, n - 1);
+    fib(temp2, n - 2);
+
+    mpz_add(result, temp1, temp2);
+
+    mpz_set(memo[n], result);
+
+    mpz_clear(temp1);
+    mpz_clear(temp2);
+
+    return true; // Placeholder for time measurement func to work
 }
 void test3() {
     std::cout << "\n---Test 3: fib()---" << std::endl;
-    auto output = measure_execution_time(fib, 0);
-    std::cout << "fib(0) = " << output << std::endl << std::endl;
+    mpz_t result;
+    mpz_init(result);
 
-    output = measure_execution_time(fib, 1);
-    std::cout << "fib(1) = " << output << std::endl << std::endl;
+    uint64_t num = 0;
+    auto output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
-    output = measure_execution_time(fib, 2);
-    std::cout << "fib(2) = " << output << std::endl << std::endl;
+    num = 1;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
-    output = measure_execution_time(fib, 3);
-    std::cout << "fib(3) = " << output << std::endl << std::endl;
+    num = 2;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
-    output = measure_execution_time(fib, 42);
-    std::cout << "fib(42) = " << output << std::endl << std::endl;
+    num = 4;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
-    output = measure_execution_time(fib, 91);
-    std::cout << "fib(91) = " << output << std::endl << std::endl;
-    output = measure_execution_time(fib, 92);
-    std::cout << "fib(92) = " << output << std::endl << std::endl;
-    output = measure_execution_time(fib, 93);
-    std::cout << "fib(93) = " << output << std::endl << std::endl;
+    num = 42;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
+
+    num = 93;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
+
+    num = 100;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
+
+    num = 1000;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
+
+    num = 5000;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
+
+    num = 92000;
+    output = measure_execution_time(fib, result, num);
+    gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     // Count digits of output
-    // Biggest possible number in uint64_t is 18446744073709551615, 20 digits
     int digits = 0;
-    uint64_t temp = output;
-    while (temp != 0) {
-        temp /= 10;
+    mpz_t temp;
+    mpz_init(temp);
+    mpz_set(temp, result);
+    while (mpz_cmp_ui(temp, 0) != 0) {
+        mpz_tdiv_q_ui(temp, temp, 10);
         digits++;
     }
-    std::cout
-        << "Last fibonacci number has " << digits
-        << " digits. Going further causes integer overflow when using uint64."
-        << std::endl
-        << std::endl;
+    mpz_clear(temp);
+    std::cout << "Last fibonacci number has " << digits << " digits."
+              << std::endl
+              << std::endl;
 }
 
 /* 4

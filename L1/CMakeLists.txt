@@ -11,4 +11,4 @@ add_subdirectory(lib)
 target_include_directories(${PROJECT_NAME} PRIVATE lib)
 target_link_directories(${PROJECT_NAME} PRIVATE lib)
 
-target_link_libraries(${PROJECT_NAME} ${Python3_LIBRARIES} Lib)
+target_link_libraries(${PROJECT_NAME} ${Python3_LIBRARIES} Lib ${GMP_LIBRARIES})
