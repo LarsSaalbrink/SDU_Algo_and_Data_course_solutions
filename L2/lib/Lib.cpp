@@ -2,6 +2,7 @@
 #include "time_measurement.h"
 #include "Stack.h"
 #include "Queue.h"
+#include "Singly_linked_list.h"
 
 #include <iostream>
 #include <vector>
@@ -78,5 +79,30 @@ void test2(){
     std::cout << "Add another element to cause overflow error" << std::endl;
     queue.enqueue(5);
     queue.print_content();
+}
+
+// Unit tests for Singly_linked_list class
+void test3(){
+    std::cout << "\n---Test 3: Singly_linked_list---" << std::endl;
+    Singly_linked_list<int> list;
+    std::cout << "Size: " << list.size() << std::endl;
+    list.insert(1);
+    list.insert(2);
+    list.insert(3);
+    list.insert(4);
+    std::cout << "Size: " << list.size() << std::endl;
+    std::cout << "List: ";
+    list.print_content();
+    std::cout << "Remove 2" << std::endl;
+    list.remove(2);
+    list.print_content();
+    std::cout << "Remove 4" << std::endl;
+    list.remove(4);
+    std::cout << "Try to remove 10 which is not present" << std::endl;
+    list.remove(10);
+    list.print_content();
+    std::cout << "Try to add duplicate 3" << std::endl;
+    list.insert(3);
+    list.print_content();
 }
 

@@ -35,6 +35,7 @@ void plot_testresult(std::string title) {
 
 int main() {
     test1();
+    test3();
     test2();
 
     return 0;
