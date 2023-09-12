@@ -12,7 +12,7 @@ void test2();
 
 // int fib(int n);
 // uint64_t fib(uint64_t n);
-bool fib(mpz_t result, uint64_t n);
+void fib(mpz_t result, uint64_t n);
 void test3();
 
 bool linear(std::string s, char c, int l);

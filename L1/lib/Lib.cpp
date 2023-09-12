@@ -104,7 +104,7 @@ void test2() {
 // }
 
 // Recursive Fibonacci function with memoization & larger type
-bool fib(mpz_t result, unsigned long n) {
+void fib(mpz_t result, unsigned long n) {
     static mpz_t memo[100000];
     static int initialized = 0;
 
@@ -117,12 +117,12 @@ bool fib(mpz_t result, unsigned long n) {
 
     if (n == 0 || n == 1) {
         mpz_set_ui(result, n);
-        return true;
+        return;
     }
 
     if (mpz_cmp_ui(memo[n], 0) != 0) {
         mpz_set(result, memo[n]);
-        return true;
+        return;
     }
 
     mpz_t temp1, temp2;
@@ -138,8 +138,6 @@ bool fib(mpz_t result, unsigned long n) {
 
     mpz_clear(temp1);
     mpz_clear(temp2);
-
-    return true; // Placeholder for time measurement func to work
 }
 void test3() {
     std::cout << "\n---Test 3: fib()---" << std::endl;
@@ -147,43 +145,43 @@ void test3() {
     mpz_init(result);
 
     uint64_t num = 0;
-    auto output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 1;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 2;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 4;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 42;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 93;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 100;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 1000;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 5000;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     num = 92000;
-    output = measure_execution_time(fib, result, num);
+    measure_execution_time_no_ret(fib, result, num);
     gmp_printf("Fib(%lu) = %Zd\n\n", num, result);
 
     // Count digits of output
