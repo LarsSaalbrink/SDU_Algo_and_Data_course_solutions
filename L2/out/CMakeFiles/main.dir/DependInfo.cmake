@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lars/Desktop/My_solutions/L2/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lars/Desktop/My_solutions/L2/out/lib/CMakeFiles/Lib.dir/DependInfo.cmake"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/lib/CMakeFiles/Lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

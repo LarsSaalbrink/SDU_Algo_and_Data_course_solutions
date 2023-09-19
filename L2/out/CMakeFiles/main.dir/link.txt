@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main   -L/home/lars/Desktop/My_solutions/L2/lib  -Wl,-rpath,/home/lars/Desktop/My_solutions/L2/lib -lpython3.10 lib/libLib.a -lgmp 
+/usr/bin/c++  -pg -rdynamic CMakeFiles/main.dir/main.cpp.o -o main   -L/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib  -Wl,-rpath,/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib lib/libLib.a 

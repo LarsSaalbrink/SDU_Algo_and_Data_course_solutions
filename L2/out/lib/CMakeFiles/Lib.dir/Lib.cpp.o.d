@@ -1,6 +1,7 @@
 lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
- /home/lars/Desktop/My_solutions/L2/lib/Lib.cpp \
- /usr/include/stdc-predef.h /home/lars/Desktop/My_solutions/L2/lib/Lib.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Lib.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Lib.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -129,7 +130,7 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/lars/Desktop/My_solutions/L2/lib/time_measurement.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/time_measurement.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/iostream \
@@ -158,9 +159,9 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/lars/Desktop/My_solutions/L2/lib/Stack.h \
- /home/lars/Desktop/My_solutions/L2/lib/Queue.h \
- /home/lars/Desktop/My_solutions/L2/lib/Singly_linked_list.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Stack.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Queue.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Singly_linked_list.h \
  /usr/include/c++/11/tuple /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
  /usr/include/c++/11/bits/uses_allocator.h \

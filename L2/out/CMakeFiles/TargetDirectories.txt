@@ -1,6 +1,6 @@
-/home/lars/Desktop/My_solutions/L2/out/CMakeFiles/main.dir
-/home/lars/Desktop/My_solutions/L2/out/CMakeFiles/edit_cache.dir
-/home/lars/Desktop/My_solutions/L2/out/CMakeFiles/rebuild_cache.dir
-/home/lars/Desktop/My_solutions/L2/out/lib/CMakeFiles/Lib.dir
-/home/lars/Desktop/My_solutions/L2/out/lib/CMakeFiles/edit_cache.dir
-/home/lars/Desktop/My_solutions/L2/out/lib/CMakeFiles/rebuild_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/CMakeFiles/main.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/CMakeFiles/rebuild_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/lib/CMakeFiles/Lib.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/lib/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/lib/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 lib/CMakeFiles/Lib.dir/Stack.cpp.o: \
- /home/lars/Desktop/My_solutions/L2/lib/Stack.cpp \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Stack.cpp \
  /usr/include/stdc-predef.h \
- /home/lars/Desktop/My_solutions/L2/lib/Stack.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib/Stack.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

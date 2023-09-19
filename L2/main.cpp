@@ -3,35 +3,35 @@
 #include "Lib.h"
 #include "time_measurement.h"
 
-#include "Matplotlibcpp.h"
-#include <chrono>
-#include <vector>
-namespace mpl = matplotlibcpp;
+// #include "Matplotlibcpp.h"
+// #include <chrono>
+// #include <vector>
+// namespace mpl = matplotlibcpp;
 
-std::vector<std::vector<double>> execution_times;
+// std::vector<std::vector<double>> execution_times;
 
-void plotVector(std::vector<double> data, std::string title) {
-    // Plot red line
-    mpl::plot(data, "r-");
+// void plotVector(std::vector<double> data, std::string title) {
+//     // Plot red line
+//     mpl::plot(data, "r-");
 
-    // Title
-    mpl::title(title);
+//     // Title
+//     mpl::title(title);
 
-    // No x axis labels
-    std::vector<std::string> xticks;
-    std::vector<int> xticksPos;
-    mpl::xticks(xticksPos, xticks);
+//     // No x axis labels
+//     std::vector<std::string> xticks;
+//     std::vector<int> xticksPos;
+//     mpl::xticks(xticksPos, xticks);
 
-    // y axis label
-    mpl::ylabel("Seconds");
+//     // y axis label
+//     mpl::ylabel("Seconds");
 
-    // Show plot
-    mpl::show();
-}
+//     // Show plot
+//     mpl::show();
+// }
 
-void plot_testresult(std::string title) {
-    plotVector(execution_times.back(), title);
-}
+// void plot_testresult(std::string title) {
+//     plotVector(execution_times.back(), title);
+// }
 
 int main() {
     test1();
