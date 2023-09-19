@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/lib
+# Install script for directory: /mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

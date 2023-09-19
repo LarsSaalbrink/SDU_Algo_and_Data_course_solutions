@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2
+CMAKE_SOURCE_DIR = "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out
+CMAKE_BINARY_DIR = "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/CMakeFiles /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/lib//CMakeFiles/progress.marks
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out/CMakeFiles 0
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out/CMakeFiles" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out/lib//CMakeFiles/progress.marks"
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/Lib.dir/rule:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Lib.dir/rule
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Lib.dir/rule
 .PHONY : lib/CMakeFiles/Lib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Lib: lib/CMakeFiles/Lib.dir/rule
 
 # fast build rule for target.
 Lib/fast:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/build
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/build
 .PHONY : Lib/fast
 
 Lib.o: Lib.cpp.o
@@ -135,7 +135,7 @@ Lib.o: Lib.cpp.o
 
 # target to build an object file
 Lib.cpp.o:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.o
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.o
 .PHONY : Lib.cpp.o
 
 Lib.i: Lib.cpp.i
@@ -143,7 +143,7 @@ Lib.i: Lib.cpp.i
 
 # target to preprocess a source file
 Lib.cpp.i:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.i
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.i
 .PHONY : Lib.cpp.i
 
 Lib.s: Lib.cpp.s
@@ -151,7 +151,7 @@ Lib.s: Lib.cpp.s
 
 # target to generate assembly for a file
 Lib.cpp.s:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.s
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.s
 .PHONY : Lib.cpp.s
 
 Stack.o: Stack.cpp.o
@@ -159,7 +159,7 @@ Stack.o: Stack.cpp.o
 
 # target to build an object file
 Stack.cpp.o:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.o
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.o
 .PHONY : Stack.cpp.o
 
 Stack.i: Stack.cpp.i
@@ -167,7 +167,7 @@ Stack.i: Stack.cpp.i
 
 # target to preprocess a source file
 Stack.cpp.i:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.i
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.i
 .PHONY : Stack.cpp.i
 
 Stack.s: Stack.cpp.s
@@ -175,7 +175,7 @@ Stack.s: Stack.cpp.s
 
 # target to generate assembly for a file
 Stack.cpp.s:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.s
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Stack.cpp.s
 .PHONY : Stack.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L2/out" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

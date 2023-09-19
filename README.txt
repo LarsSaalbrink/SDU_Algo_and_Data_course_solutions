@@ -1,3 +1,10 @@
+Calling "build_and_run.sh" will generate build files, 
+build the code, run it & generate profiling file as described below.
+
+
+
+
+
 Commands to use this folder:
     Generate build files into folder "out" with CMake:
         "cmake -S . -B out/"
@@ -19,5 +26,9 @@ Running build system on WSL (Linux in windows) requires:
 	-"sudo apt-get install build-essential"
 	-"sudo apt install ninja-build"       
 	-"sudo apt install cmake"
+
+
+Generating fresh profiling file after running the code:
+    -"gprof out/main > analysis.txt"
 
 	

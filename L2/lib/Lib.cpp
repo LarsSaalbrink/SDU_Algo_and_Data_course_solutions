@@ -77,7 +77,11 @@ void test2(){
     queue.resize(2);
     queue.print_content();
     std::cout << "Add another element to cause overflow error" << std::endl;
-    queue.enqueue(5);
+    try{
+        queue.enqueue(5);
+    } catch (std::overflow_error& e) {
+        std::cout << "Caught overflow error: " << e.what() << std::endl;
+    }
     queue.print_content();
 }
 
