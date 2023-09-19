@@ -1,6 +1,0 @@
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/CMakeFiles/main.dir
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/CMakeFiles/edit_cache.dir
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/CMakeFiles/rebuild_cache.dir
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/lib/CMakeFiles/Lib.dir
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/lib/CMakeFiles/edit_cache.dir
-/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/Algo_og_data/My_solutions/L1/out/lib/CMakeFiles/rebuild_cache.dir
