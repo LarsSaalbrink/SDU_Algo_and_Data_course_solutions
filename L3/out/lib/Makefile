@@ -154,6 +154,30 @@ Lib.cpp.s:
 	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/Lib.cpp.s
 .PHONY : Lib.cpp.s
 
+balls.o: balls.cpp.o
+.PHONY : balls.o
+
+# target to build an object file
+balls.cpp.o:
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/balls.cpp.o
+.PHONY : balls.cpp.o
+
+balls.i: balls.cpp.i
+.PHONY : balls.i
+
+# target to preprocess a source file
+balls.cpp.i:
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/balls.cpp.i
+.PHONY : balls.cpp.i
+
+balls.s: balls.cpp.s
+.PHONY : balls.s
+
+# target to generate assembly for a file
+balls.cpp.s:
+	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Lib.dir/build.make lib/CMakeFiles/Lib.dir/balls.cpp.s
+.PHONY : balls.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... Lib.o"
 	@echo "... Lib.i"
 	@echo "... Lib.s"
+	@echo "... balls.o"
+	@echo "... balls.i"
+	@echo "... balls.s"
 .PHONY : help
 
 
