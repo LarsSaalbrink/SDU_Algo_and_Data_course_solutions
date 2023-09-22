@@ -9,4 +9,6 @@ void task0_3();
 
 void task1();
 
+void task2();
+
 #endif // LIB_H

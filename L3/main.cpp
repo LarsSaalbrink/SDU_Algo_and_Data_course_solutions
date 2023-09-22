@@ -14,5 +14,9 @@ int main() {
 
     task1();
 
+    std::cout << std::endl << std::endl;
+
+    task2();
+
     return 0;
 }
