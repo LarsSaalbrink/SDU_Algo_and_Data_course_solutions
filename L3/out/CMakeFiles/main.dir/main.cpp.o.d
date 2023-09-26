@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/main.cpp.o: \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/main.cpp \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,4 +151,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.h
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.h

@@ -1,6 +1,6 @@
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/main.dir
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/edit_cache.dir
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/Lib.dir
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/edit_cache.dir
-/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/rebuild_cache.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/main.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/edit_cache.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles/rebuild_cache.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/Lib.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/edit_cache.dir
+/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 lib/CMakeFiles/Lib.dir/balls.cpp.o: \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.h \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

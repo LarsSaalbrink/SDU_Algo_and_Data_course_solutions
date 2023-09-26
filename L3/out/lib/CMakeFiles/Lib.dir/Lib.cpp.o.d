@@ -1,7 +1,7 @@
 lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.h \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,7 +134,7 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/crappy_hashmap.h \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/crappy_hashmap.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -145,7 +145,7 @@ lib/CMakeFiles/Lib.dir/Lib.cpp.o: \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/stdexcept \
- /mnt/c/Users/kaasv/Desktop/Git\ checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.h \
+ /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/iostream \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/ios_base.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3"
+CMAKE_SOURCE_DIR = /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out"
+CMAKE_BINARY_DIR = /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/Lib.dir/depend.make
@@ -72,30 +72,30 @@ include lib/CMakeFiles/Lib.dir/flags.make
 lib/CMakeFiles/Lib.dir/Lib.cpp.o: lib/CMakeFiles/Lib.dir/flags.make
 lib/CMakeFiles/Lib.dir/Lib.cpp.o: ../lib/Lib.cpp
 lib/CMakeFiles/Lib.dir/Lib.cpp.o: lib/CMakeFiles/Lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/Lib.dir/Lib.cpp.o"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Lib.dir/Lib.cpp.o -MF CMakeFiles/Lib.dir/Lib.cpp.o.d -o CMakeFiles/Lib.dir/Lib.cpp.o -c "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/Lib.dir/Lib.cpp.o"
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Lib.dir/Lib.cpp.o -MF CMakeFiles/Lib.dir/Lib.cpp.o.d -o CMakeFiles/Lib.dir/Lib.cpp.o -c /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp
 
 lib/CMakeFiles/Lib.dir/Lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/Lib.cpp.i"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp" > CMakeFiles/Lib.dir/Lib.cpp.i
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp > CMakeFiles/Lib.dir/Lib.cpp.i
 
 lib/CMakeFiles/Lib.dir/Lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/Lib.cpp.s"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp" -o CMakeFiles/Lib.dir/Lib.cpp.s
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/Lib.cpp -o CMakeFiles/Lib.dir/Lib.cpp.s
 
 lib/CMakeFiles/Lib.dir/balls.cpp.o: lib/CMakeFiles/Lib.dir/flags.make
 lib/CMakeFiles/Lib.dir/balls.cpp.o: ../lib/balls.cpp
 lib/CMakeFiles/Lib.dir/balls.cpp.o: lib/CMakeFiles/Lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/Lib.dir/balls.cpp.o"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Lib.dir/balls.cpp.o -MF CMakeFiles/Lib.dir/balls.cpp.o.d -o CMakeFiles/Lib.dir/balls.cpp.o -c "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/Lib.dir/balls.cpp.o"
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Lib.dir/balls.cpp.o -MF CMakeFiles/Lib.dir/balls.cpp.o.d -o CMakeFiles/Lib.dir/balls.cpp.o -c /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp
 
 lib/CMakeFiles/Lib.dir/balls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/balls.cpp.i"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp" > CMakeFiles/Lib.dir/balls.cpp.i
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp > CMakeFiles/Lib.dir/balls.cpp.i
 
 lib/CMakeFiles/Lib.dir/balls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/balls.cpp.s"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp" -o CMakeFiles/Lib.dir/balls.cpp.s
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib/balls.cpp -o CMakeFiles/Lib.dir/balls.cpp.s
 
 # Object files for target Lib
 Lib_OBJECTS = \
@@ -109,19 +109,19 @@ lib/libLib.a: lib/CMakeFiles/Lib.dir/Lib.cpp.o
 lib/libLib.a: lib/CMakeFiles/Lib.dir/balls.cpp.o
 lib/libLib.a: lib/CMakeFiles/Lib.dir/build.make
 lib/libLib.a: lib/CMakeFiles/Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLib.a"
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && $(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean_target.cmake
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLib.a"
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean_target.cmake
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/Lib.dir/build: lib/libLib.a
 .PHONY : lib/CMakeFiles/Lib.dir/build
 
 lib/CMakeFiles/Lib.dir/clean:
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" && $(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean.cmake
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/Lib.dir/clean
 
 lib/CMakeFiles/Lib.dir/depend:
-	cd "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib" "/mnt/c/Users/kaasv/Desktop/Git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/Lib.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3 /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/CMakeFiles/Lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/Lib.dir/depend
 
