@@ -1,4 +1,4 @@
-# Install script for directory: /home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3
+# Install script for directory: /home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/cmake_install.cmake")
+  include("/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/lib/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/out/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L3/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

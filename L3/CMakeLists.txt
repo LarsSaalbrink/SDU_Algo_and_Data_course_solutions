@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
 
 # Enable optimization flag
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+
+# Enable debug flag
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
 # Enable gprof profiling
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")

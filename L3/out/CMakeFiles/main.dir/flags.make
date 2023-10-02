@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lars/Desktop/Git_checkouts/SDU_Algo_and_Data_course_solutions/L3/lib
+CXX_INCLUDES = -I"/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L3/lib"
 
-CXX_FLAGS =  -O2 -pg
+CXX_FLAGS =  -g -pg
 
