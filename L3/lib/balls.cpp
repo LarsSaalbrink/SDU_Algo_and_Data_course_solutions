@@ -60,7 +60,7 @@ void ball_experiment_run(size_t num_bins, size_t num_balls,
     std::vector<size_t> averages(number_of_runs, 0);
     std::vector<size_t> maxes(number_of_runs, 0);
     for (size_t i = 0; i < number_of_runs; i++) {
-        fill_bins_random(bins, balls);
+        bin_fill_strategy(bins, balls);
         averages[i] = average_of_bins(bins);
         maxes[i] = max_of_bins(bins);
     }
