@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -pg -rdynamic CMakeFiles/main.dir/main.cpp.o -o main   -L"/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/lib"  -Wl,-rpath,"/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/lib" lib/libLib.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLib.a CMakeFiles/Lib.dir/Lib.cpp.o CMakeFiles/Lib.dir/is_sum_present.cpp.o CMakeFiles/Lib.dir/anagram_check.cpp.o
+/usr/bin/ranlib libLib.a

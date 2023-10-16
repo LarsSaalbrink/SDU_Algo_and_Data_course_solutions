@@ -1,0 +1,6 @@
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/CMakeFiles/main.dir
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/CMakeFiles/edit_cache.dir
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/CMakeFiles/rebuild_cache.dir
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/lib/CMakeFiles/Lib.dir
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/lib/CMakeFiles/edit_cache.dir
+/home/lars/Desktop/git checkouts/SDU_Algo_and_Data_course_solutions/L5/out/lib/CMakeFiles/rebuild_cache.dir
